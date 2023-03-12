@@ -1,0 +1,47 @@
+.optionsList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.good {
+    width: 60px;
+    border-radius: 10px;
+    border-color: rgb(29, 237, 29);
+    color: black;
+    background-color: white;
+    border-style: ridge;
+}
+
+.good:hover {
+background-color: rgb(29, 237, 29);
+}
+
+.neutral {
+    width: 60px;
+    border-radius: 10px;
+    border-color: rgb(100, 162, 217);
+    color: black;
+    background-color: white;
+    border-style: ridge;
+}
+
+.neutral:hover {
+    background-color: rgb(100, 162, 217);
+}
+
+
+.bad {
+    width: 60px;
+    border-radius: 10px;
+    border-color: rgb(237, 85, 83);
+    color: black;
+    background-color: white;
+    border-style: ridge;
+}
+
+.bad:hover {
+    background-color: rgb(237, 85, 83);
+}
+
